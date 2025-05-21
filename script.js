@@ -3,6 +3,7 @@ const hiraganaData = [
     { 
         char: 'あ', 
         romaji: 'a',
+        videoId: 'qqUnb6CMNcI',
         examples: [
             { word: 'あい', romaji: 'ai', meaning: 'love' },
             { word: 'あか', romaji: 'aka', meaning: 'red' },
@@ -12,6 +13,7 @@ const hiraganaData = [
     { 
         char: 'い', 
         romaji: 'i',
+        videoId: 'VIDEO_ID_FOR_I',
         examples: [
             { word: 'いぬ', romaji: 'inu', meaning: 'dog' },
             { word: 'いち', romaji: 'ichi', meaning: 'one' },
@@ -1371,4 +1373,59 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Initialize
-updateCard(); 
+updateCard();
+
+// Stroke Order Functionality
+const strokeOrderBtn = document.querySelector('.stroke-order-btn');
+const strokeOrderPopup = document.querySelector('.stroke-order-popup');
+const closePopupBtn = document.querySelector('.close-popup');
+const strokeOrderContainer = document.querySelector('.stroke-order-container');
+
+// Toggle popup
+strokeOrderBtn.addEventListener('click', () => {
+    strokeOrderPopup.classList.add('active');
+    updateStrokeOrder();
+});
+
+closePopupBtn.addEventListener('click', () => {
+    strokeOrderPopup.classList.remove('active');
+});
+
+// Close popup when clicking outside
+document.addEventListener('click', (e) => {
+    if (!strokeOrderPopup.contains(e.target) && !strokeOrderBtn.contains(e.target)) {
+        strokeOrderPopup.classList.remove('active');
+    }
+});
+
+// Update stroke order content
+function updateStrokeOrder() {
+    const currentChar = currentData[currentIndex];
+    strokeOrderContainer.innerHTML = ''; // Clear previous content
+    
+    // Get video container and update with current character's video
+    const videoContainer = document.querySelector('.video-container');
+    
+    // Check if the character has a video ID
+    if (currentChar.videoId) {
+        videoContainer.innerHTML = `
+            <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/${currentChar.videoId}" 
+                title="Stroke Order Video for ${currentChar.char}" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        `;
+    } else {
+        // Show placeholder if no video is available
+        videoContainer.innerHTML = `
+            <div class="video-placeholder">
+                <i class="fab fa-youtube"></i>
+                <p>No video available for ${currentChar.char}</p>
+            </div>
+        `;
+    }
+} 

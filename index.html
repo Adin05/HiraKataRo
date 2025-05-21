@@ -24,7 +24,12 @@
             <div class="card">
                 <div class="card-inner">
                     <div class="card-front">
-                        <h2 class="japanese">あ</h2>
+                        <div class="char-container">
+                            <button class="stroke-order-btn" title="Show stroke order">
+                                <i class="fas fa-pencil-alt"></i>
+                            </button>
+                            <h2 class="japanese">あ</h2>
+                        </div>
                         <p class="romaji">a</p>
                     </div>
                 </div>
@@ -40,6 +45,27 @@
             <button id="kanjiBtn" class="mode-btn">Kanji</button>
         </div>
     </div>
+
+    <!-- Stroke Order Popup -->
+    <div class="stroke-order-popup">
+        <div class="popup-content">
+            <button class="close-popup">
+                <i class="fas fa-times"></i>
+            </button>
+            <h3>Stroke Order</h3>
+            <div class="video-container">
+                <!-- YouTube video will be added here -->
+                <div class="video-placeholder">
+                    <i class="fab fa-youtube"></i>
+                    <p>Video will be added here</p>
+                </div>
+            </div>
+            <div class="stroke-order-container">
+                <!-- Stroke order images will be added dynamically -->
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html> 
