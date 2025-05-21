@@ -1284,5 +1284,91 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// Add touch swipe functionality
+let touchStartX = 0;
+let touchEndX = 0;
+const SWIPE_THRESHOLD = 50; // Minimum distance for swipe
+
+function handleTouchStart(event) {
+    touchStartX = event.touches[0].clientX;
+}
+
+function handleTouchMove(event) {
+    touchEndX = event.touches[0].clientX;
+    const diff = touchEndX - touchStartX;
+    
+    // Show swipe indicator
+    const leftIndicator = document.querySelector('.swipe-indicator.left');
+    const rightIndicator = document.querySelector('.swipe-indicator.right');
+    
+    if (diff > SWIPE_THRESHOLD) {
+        rightIndicator?.classList.add('visible');
+        leftIndicator?.classList.remove('visible');
+    } else if (diff < -SWIPE_THRESHOLD) {
+        leftIndicator?.classList.add('visible');
+        rightIndicator?.classList.remove('visible');
+    } else {
+        leftIndicator?.classList.remove('visible');
+        rightIndicator?.classList.remove('visible');
+    }
+}
+
+function handleTouchEnd() {
+    const diff = touchEndX - touchStartX;
+    
+    // Hide swipe indicators
+    document.querySelectorAll('.swipe-indicator').forEach(indicator => {
+        indicator.classList.remove('visible');
+    });
+    
+    if (Math.abs(diff) > SWIPE_THRESHOLD) {
+        if (diff > 0) {
+            // Swipe right - go to previous
+            if (currentIndex > 0) {
+                showPreviousCard();
+            }
+        } else {
+            // Swipe left - go to next
+            if (currentIndex < currentData.length - 1) {
+                showNextCard();
+            }
+        }
+    }
+}
+
+// Add swipe indicators to the card container
+function addSwipeIndicators() {
+    const cardContainer = document.querySelector('.card-container');
+    
+    const leftIndicator = document.createElement('div');
+    leftIndicator.className = 'swipe-indicator left';
+    leftIndicator.innerHTML = '←';
+    
+    const rightIndicator = document.createElement('div');
+    rightIndicator.className = 'swipe-indicator right';
+    rightIndicator.innerHTML = '→';
+    
+    cardContainer.appendChild(leftIndicator);
+    cardContainer.appendChild(rightIndicator);
+}
+
+// Initialize touch events
+function initializeTouchEvents() {
+    const cardContainer = document.querySelector('.card-container');
+    
+    cardContainer.addEventListener('touchstart', handleTouchStart, { passive: true });
+    cardContainer.addEventListener('touchmove', handleTouchMove, { passive: true });
+    cardContainer.addEventListener('touchend', handleTouchEnd, { passive: true });
+    
+    addSwipeIndicators();
+}
+
+// Call this after DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    // ... existing initialization code ...
+    
+    initializeTouchEvents();
+});
+
 // Initialize
 updateCard(); 

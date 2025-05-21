@@ -24,6 +24,11 @@ body {
     height: 600px;
     perspective: 1000px;
     margin-bottom: 20px;
+    touch-action: pan-y pinch-zoom;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .card {
@@ -32,6 +37,8 @@ body {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
+    touch-action: pan-y pinch-zoom;
+    will-change: transform;
 }
 
 .card-inner {
@@ -68,6 +75,10 @@ body {
     margin-bottom: 20px;
     color: #2c3e50;
     font-family: 'Noto Sans JP', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .romaji {
@@ -75,6 +86,10 @@ body {
     color: #7f8c8d;
     margin-bottom: 10px;
     line-height: 1.4;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .controls {
@@ -186,18 +201,30 @@ body {
     font-size: 1.6rem;
     color: #2c3e50;
     font-family: 'Noto Sans JP', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .word-romaji {
     font-size: 1.4rem;
     color: #7f8c8d;
     text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .word-meaning {
     font-size: 1.4rem;
     color: #34495e;
     text-align: right;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 /* Customize scrollbar for examples container */
@@ -220,4 +247,309 @@ body {
 }
 
 /* Add Google Fonts for better Japanese text rendering */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .card-container {
+        height: auto;
+        min-height: 500px;
+    }
+
+    .japanese {
+        font-size: 6rem;
+        margin-bottom: 15px;
+    }
+
+    .romaji {
+        font-size: 2rem;
+    }
+
+    .control-btn {
+        padding: 12px 24px;
+        font-size: 1.6rem;
+    }
+
+    .mode-btn {
+        padding: 8px 16px;
+        font-size: 1.4rem;
+    }
+
+    .example-word {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    .word {
+        font-size: 1.3rem;
+    }
+
+    .word-romaji, .word-meaning {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+
+    .card-container {
+        min-height: 400px;
+    }
+
+    .japanese {
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+
+    .romaji {
+        font-size: 1.5rem;
+    }
+
+    .controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .control-btn {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 1.4rem;
+    }
+
+    .mode-switch {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mode-btn {
+        width: calc(50% - 5px);
+        margin: 2px;
+        font-size: 1.2rem;
+    }
+
+    .examples-container {
+        max-height: 200px;
+    }
+
+    .example-word {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+
+    .word {
+        font-size: 1.1rem;
+    }
+
+    .word-romaji, .word-meaning {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .card-inner {
+        padding: 10px;
+    }
+
+    .card-front {
+        padding: 10px;
+    }
+}
+
+/* Tablet-specific adjustments */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .japanese {
+        font-size: 8rem;
+    }
+
+    .romaji {
+        font-size: 2.2rem;
+    }
+
+    .example-word {
+        font-size: 1.1rem;
+    }
+
+    .word {
+        font-size: 1.4rem;
+    }
+
+    .word-romaji, .word-meaning {
+        font-size: 1.2rem;
+    }
+}
+
+/* Landscape mode for mobile */
+@media screen and (max-height: 480px) and (orientation: landscape) {
+    .card-container {
+        height: 100vh;
+    }
+
+    .japanese {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+
+    .romaji {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .examples-container {
+        max-height: 150px;
+    }
+
+    .controls {
+        margin-bottom: 10px;
+    }
+
+    .control-btn {
+        padding: 8px 16px;
+        font-size: 1.2rem;
+    }
+
+    .mode-btn {
+        padding: 6px 12px;
+        font-size: 1rem;
+    }
+}
+
+/* Ensure touch targets are large enough */
+@media (hover: none) and (pointer: coarse) {
+    .control-btn, .mode-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
+/* Prevent text size adjustment on iOS */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Improve scrolling on mobile */
+.examples-container {
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Add swipe indicator */
+.swipe-indicator {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.swipe-indicator.left {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.swipe-indicator.right {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.swipe-indicator.visible {
+    opacity: 0.5;
+}
+
+/* Social Media Icons */
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #2c3e50;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.social-icon i {
+    font-size: 1.2rem;
+}
+
+/* Instagram specific color */
+.social-icon:nth-child(1):hover {
+    background: #E1306C;
+    color: white;
+}
+
+/* LinkedIn specific color */
+.social-icon:nth-child(2):hover {
+    background: #0077B5;
+    color: white;
+}
+
+/* YouTube specific color */
+.social-icon:nth-child(3):hover {
+    background: #FF0000;
+    color: white;
+}
+
+/* Responsive adjustments for social icons */
+@media screen and (max-width: 768px) {
+    .social-icons {
+        bottom: 10px;
+        right: 10px;
+        gap: 8px;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .social-icon i {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .social-icons {
+        bottom: 5px;
+        right: 5px;
+        gap: 5px;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-icon i {
+        font-size: 0.9rem;
+    }
+} 
