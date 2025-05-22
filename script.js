@@ -1428,4 +1428,27 @@ function updateStrokeOrder() {
             </div>
         `;
     }
-} 
+}
+
+// Visitor Counter Functionality
+function updateVisitorCount() {
+    // Get the current count from localStorage
+    let count = localStorage.getItem('visitCount') || 0;
+    
+    // Increment the count
+    count = parseInt(count) + 1;
+    
+    // Save the new count
+    localStorage.setItem('visitCount', count);
+    
+    // Update the display
+    document.getElementById('visitCount').textContent = count;
+}
+
+// Initialize visitor count when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    // ... existing initialization code ...
+    
+    // Initialize visitor count
+    updateVisitorCount();
+}); 
