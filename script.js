@@ -13,7 +13,7 @@ const hiraganaData = [
     { 
         char: 'い', 
         romaji: 'i',
-        videoId: 'VIDEO_ID_FOR_I',
+        videoId: '',
         examples: [
             { word: 'いぬ', romaji: 'inu', meaning: 'dog' },
             { word: 'いち', romaji: 'ichi', meaning: 'one' },
@@ -23,6 +23,7 @@ const hiraganaData = [
     { 
         char: 'う', 
         romaji: 'u',
+        videoId: '',
         examples: [
             { word: 'うみ', romaji: 'umi', meaning: 'sea' },
             { word: 'うし', romaji: 'ushi', meaning: 'cow' },
@@ -32,6 +33,7 @@ const hiraganaData = [
     { 
         char: 'え', 
         romaji: 'e',
+        videoId: '',
         examples: [
             { word: 'えき', romaji: 'eki', meaning: 'station' },
             { word: 'えんぴつ', romaji: 'enpitsu', meaning: 'pencil' },
@@ -41,6 +43,7 @@ const hiraganaData = [
     { 
         char: 'お', 
         romaji: 'o',
+        videoId: '',
         examples: [
             { word: 'おと', romaji: 'oto', meaning: 'sound' },
             { word: 'おか', romaji: 'oka', meaning: 'hill' },
@@ -50,6 +53,7 @@ const hiraganaData = [
     { 
         char: 'か', 
         romaji: 'ka',
+        videoId: '',
         examples: [
             { word: 'かみ', romaji: 'kami', meaning: 'paper' },
             { word: 'かわ', romaji: 'kawa', meaning: 'river' },
@@ -59,6 +63,7 @@ const hiraganaData = [
     { 
         char: 'き', 
         romaji: 'ki',
+        videoId: '',
         examples: [
             { word: 'きく', romaji: 'kiku', meaning: 'chrysanthemum' },
             { word: 'きみ', romaji: 'kimi', meaning: 'you' },
@@ -68,6 +73,7 @@ const hiraganaData = [
     { 
         char: 'く', 
         romaji: 'ku',
+        videoId: '',
         examples: [
             { word: 'くも', romaji: 'kumo', meaning: 'cloud' },
             { word: 'くつ', romaji: 'kutsu', meaning: 'shoes' },
@@ -77,6 +83,7 @@ const hiraganaData = [
     { 
         char: 'け', 
         romaji: 'ke',
+        videoId: '',
         examples: [
             { word: 'けん', romaji: 'ken', meaning: 'sword' },
             { word: 'けしき', romaji: 'keshiki', meaning: 'scenery' },
@@ -86,6 +93,7 @@ const hiraganaData = [
     { 
         char: 'こ', 
         romaji: 'ko',
+        videoId: '',
         examples: [
             { word: 'こと', romaji: 'koto', meaning: 'thing' },
             { word: 'こども', romaji: 'kodomo', meaning: 'child' },
@@ -95,6 +103,7 @@ const hiraganaData = [
     { 
         char: 'さ', 
         romaji: 'sa',
+        videoId: '',
         examples: [
             { word: 'さくら', romaji: 'sakura', meaning: 'cherry blossom' },
             { word: 'さかな', romaji: 'sakana', meaning: 'fish' },
@@ -104,6 +113,7 @@ const hiraganaData = [
     { 
         char: 'し', 
         romaji: 'shi',
+        videoId: '',
         examples: [
             { word: 'しろ', romaji: 'shiro', meaning: 'white' },
             { word: 'しんぶん', romaji: 'shinbun', meaning: 'newspaper' },
@@ -113,6 +123,7 @@ const hiraganaData = [
     { 
         char: 'す', 
         romaji: 'su',
+        videoId: '',
         examples: [
             { word: 'すみ', romaji: 'sumi', meaning: 'corner' },
             { word: 'すず', romaji: 'suzu', meaning: 'bell' },
@@ -122,6 +133,7 @@ const hiraganaData = [
     { 
         char: 'せ', 
         romaji: 'se',
+        videoId: '',
         examples: [
             { word: 'せかい', romaji: 'sekai', meaning: 'world' },
             { word: 'せんせい', romaji: 'sensei', meaning: 'teacher' },
@@ -131,6 +143,7 @@ const hiraganaData = [
     { 
         char: 'そ', 
         romaji: 'so',
+        videoId: '',
         examples: [
             { word: 'そら', romaji: 'sora', meaning: 'sky' },
             { word: 'そと', romaji: 'soto', meaning: 'outside' },
@@ -140,6 +153,7 @@ const hiraganaData = [
     { 
         char: 'た', 
         romaji: 'ta',
+        videoId: '',
         examples: [
             { word: 'たまご', romaji: 'tamago', meaning: 'egg' },
             { word: 'たから', romaji: 'takara', meaning: 'treasure' },
@@ -149,6 +163,7 @@ const hiraganaData = [
     { 
         char: 'ち', 
         romaji: 'chi',
+        videoId: '',
         examples: [
             { word: 'ちず', romaji: 'chizu', meaning: 'map' },
             { word: 'ちいさい', romaji: 'chiisai', meaning: 'small' },
@@ -158,6 +173,7 @@ const hiraganaData = [
     { 
         char: 'つ', 
         romaji: 'tsu',
+        videoId: '',
         examples: [
             { word: 'つき', romaji: 'tsuki', meaning: 'moon' },
             { word: 'つくえ', romaji: 'tsukue', meaning: 'desk' },
@@ -167,6 +183,7 @@ const hiraganaData = [
     { 
         char: 'て', 
         romaji: 'te',
+        videoId: '',
         examples: [
             { word: 'てがみ', romaji: 'tegami', meaning: 'letter' },
             { word: 'てんき', romaji: 'tenki', meaning: 'weather' },
@@ -176,6 +193,7 @@ const hiraganaData = [
     { 
         char: 'と', 
         romaji: 'to',
+        videoId: '',
         examples: [
             { word: 'とけい', romaji: 'tokei', meaning: 'clock' },
             { word: 'とし', romaji: 'toshi', meaning: 'year' },
@@ -185,6 +203,7 @@ const hiraganaData = [
     { 
         char: 'な', 
         romaji: 'na',
+        videoId: '',
         examples: [
             { word: 'なつ', romaji: 'natsu', meaning: 'summer' },
             { word: 'なまえ', romaji: 'namae', meaning: 'name' },
@@ -194,6 +213,7 @@ const hiraganaData = [
     { 
         char: 'に', 
         romaji: 'ni',
+        videoId: '',
         examples: [
             { word: 'にほん', romaji: 'nihon', meaning: 'Japan' },
             { word: 'にわ', romaji: 'niwa', meaning: 'garden' },
@@ -203,6 +223,7 @@ const hiraganaData = [
     { 
         char: 'ぬ', 
         romaji: 'nu',
+        videoId: '',
         examples: [
             { word: 'ぬま', romaji: 'numa', meaning: 'swamp' },
             { word: 'ぬりえ', romaji: 'nurie', meaning: 'coloring book' },
@@ -212,6 +233,7 @@ const hiraganaData = [
     { 
         char: 'ね', 
         romaji: 'ne',
+        videoId: '',
         examples: [
             { word: 'ねこ', romaji: 'neko', meaning: 'cat' },
             { word: 'ねむい', romaji: 'nemui', meaning: 'sleepy' },
@@ -221,6 +243,7 @@ const hiraganaData = [
     { 
         char: 'の', 
         romaji: 'no',
+        videoId: '',
         examples: [
             { word: 'のど', romaji: 'nodo', meaning: 'throat' },
             { word: 'のり', romaji: 'nori', meaning: 'seaweed' },
@@ -230,6 +253,7 @@ const hiraganaData = [
     { 
         char: 'は', 
         romaji: 'ha',
+        videoId: '',
         examples: [
             { word: 'はな', romaji: 'hana', meaning: 'flower' },
             { word: 'はし', romaji: 'hashi', meaning: 'bridge' },
@@ -239,6 +263,7 @@ const hiraganaData = [
     { 
         char: 'ひ', 
         romaji: 'hi',
+        videoId: '',
         examples: [
             { word: 'ひかり', romaji: 'hikari', meaning: 'light' },
             { word: 'ひこうき', romaji: 'hikouki', meaning: 'airplane' },
@@ -248,6 +273,7 @@ const hiraganaData = [
     { 
         char: 'ふ', 
         romaji: 'fu',
+        videoId: '',
         examples: [
             { word: 'ふゆ', romaji: 'fuyu', meaning: 'winter' },
             { word: 'ふね', romaji: 'fune', meaning: 'ship' },
@@ -257,6 +283,7 @@ const hiraganaData = [
     { 
         char: 'へ', 
         romaji: 'he',
+        videoId: '',
         examples: [
             { word: 'へや', romaji: 'heya', meaning: 'room' },
             { word: 'へいわ', romaji: 'heiwa', meaning: 'peace' },
@@ -266,6 +293,7 @@ const hiraganaData = [
     { 
         char: 'ほ', 
         romaji: 'ho',
+        videoId: '',
         examples: [
             { word: 'ほし', romaji: 'hoshi', meaning: 'star' },
             { word: 'ほん', romaji: 'hon', meaning: 'book' },
@@ -275,6 +303,7 @@ const hiraganaData = [
     { 
         char: 'ま', 
         romaji: 'ma',
+        videoId: '',
         examples: [
             { word: 'まど', romaji: 'mado', meaning: 'window' },
             { word: 'まち', romaji: 'machi', meaning: 'town' },
@@ -284,6 +313,7 @@ const hiraganaData = [
     { 
         char: 'み', 
         romaji: 'mi',
+        videoId: '',
         examples: [
             { word: 'みず', romaji: 'mizu', meaning: 'water' },
             { word: 'みち', romaji: 'michi', meaning: 'road' },
@@ -293,6 +323,7 @@ const hiraganaData = [
     { 
         char: 'む', 
         romaji: 'mu',
+        videoId: '',
         examples: [
             { word: 'むし', romaji: 'mushi', meaning: 'insect' },
             { word: 'むすめ', romaji: 'musume', meaning: 'daughter' },
@@ -302,6 +333,7 @@ const hiraganaData = [
     { 
         char: 'め', 
         romaji: 'me',
+        videoId: '',
         examples: [
             { word: 'めがね', romaji: 'megane', meaning: 'glasses' },
             { word: 'めん', romaji: 'men', meaning: 'noodles' },
@@ -311,6 +343,7 @@ const hiraganaData = [
     { 
         char: 'も', 
         romaji: 'mo',
+        videoId: '',
         examples: [
             { word: 'もも', romaji: 'momo', meaning: 'peach' },
             { word: 'もり', romaji: 'mori', meaning: 'forest' },
@@ -320,6 +353,7 @@ const hiraganaData = [
     { 
         char: 'や', 
         romaji: 'ya',
+        videoId: '',
         examples: [
             { word: 'やま', romaji: 'yama', meaning: 'mountain' },
             { word: 'やさい', romaji: 'yasai', meaning: 'vegetable' },
@@ -329,6 +363,7 @@ const hiraganaData = [
     { 
         char: 'ゆ', 
         romaji: 'yu',
+        videoId: '',
         examples: [
             { word: 'ゆき', romaji: 'yuki', meaning: 'snow' },
             { word: 'ゆめ', romaji: 'yume', meaning: 'dream' },
@@ -338,6 +373,7 @@ const hiraganaData = [
     { 
         char: 'よ', 
         romaji: 'yo',
+        videoId: '',
         examples: [
             { word: 'よる', romaji: 'yoru', meaning: 'night' },
             { word: 'よみもの', romaji: 'yomimono', meaning: 'reading material' },
@@ -347,6 +383,7 @@ const hiraganaData = [
     { 
         char: 'ら', 
         romaji: 'ra',
+        videoId: '',
         examples: [
             { word: 'らく', romaji: 'raku', meaning: 'easy' },
             { word: 'らん', romaji: 'ran', meaning: 'orchid' },
@@ -356,6 +393,7 @@ const hiraganaData = [
     { 
         char: 'り', 
         romaji: 'ri',
+        videoId: '',
         examples: [
             { word: 'りんご', romaji: 'ringo', meaning: 'apple' },
             { word: 'りゅう', romaji: 'ryuu', meaning: 'dragon' },
@@ -365,6 +403,7 @@ const hiraganaData = [
     { 
         char: 'る', 
         romaji: 'ru',
+        videoId: '',
         examples: [
             { word: 'るす', romaji: 'rusu', meaning: 'absence' },
             { word: 'るい', romaji: 'rui', meaning: 'kind' },
@@ -374,6 +413,7 @@ const hiraganaData = [
     { 
         char: 'れ', 
         romaji: 're',
+        videoId: '',
         examples: [
             { word: 'れい', romaji: 'rei', meaning: 'zero' },
             { word: 'れきし', romaji: 'rekishi', meaning: 'history' },
@@ -383,6 +423,7 @@ const hiraganaData = [
     { 
         char: 'ろ', 
         romaji: 'ro',
+        videoId: '',
         examples: [
             { word: 'ろく', romaji: 'roku', meaning: 'six' },
             { word: 'ろうか', romaji: 'rouka', meaning: 'corridor' },
@@ -392,6 +433,7 @@ const hiraganaData = [
     { 
         char: 'わ', 
         romaji: 'wa',
+        videoId: '',
         examples: [
             { word: 'わか', romaji: 'waka', meaning: 'young' },
             { word: 'わし', romaji: 'washi', meaning: 'eagle' },
@@ -401,6 +443,7 @@ const hiraganaData = [
     { 
         char: 'を', 
         romaji: 'wo',
+        videoId: '',
         examples: [
             { word: 'をとる', romaji: 'wotoru', meaning: 'to take' },
             { word: 'をみる', romaji: 'womiru', meaning: 'to see' },
@@ -410,6 +453,7 @@ const hiraganaData = [
     { 
         char: 'ん', 
         romaji: 'n',
+        videoId: '',
         examples: [
             { word: 'さん', romaji: 'san', meaning: 'three' },
             { word: 'にん', romaji: 'nin', meaning: 'person' },
@@ -422,6 +466,7 @@ const katakanaData = [
     { 
         char: 'ア', 
         romaji: 'a',
+        videoId: '',
         examples: [
             { word: 'アニメ', romaji: 'anime', meaning: 'anime' },
             { word: 'アメリカ', romaji: 'amerika', meaning: 'America' },
@@ -431,6 +476,7 @@ const katakanaData = [
     { 
         char: 'イ', 
         romaji: 'i',
+        videoId: '',
         examples: [
             { word: 'イギリス', romaji: 'igirisu', meaning: 'England' },
             { word: 'イタリア', romaji: 'itaria', meaning: 'Italy' },
@@ -440,6 +486,7 @@ const katakanaData = [
     { 
         char: 'ウ', 
         romaji: 'u',
+        videoId: '',
         examples: [
             { word: 'ウイスキー', romaji: 'uisukii', meaning: 'whiskey' },
             { word: 'ウイルス', romaji: 'uirusu', meaning: 'virus' },
@@ -449,6 +496,7 @@ const katakanaData = [
     { 
         char: 'エ', 
         romaji: 'e',
+        videoId: '',
         examples: [
             { word: 'エアコン', romaji: 'eakon', meaning: 'air conditioner' },
             { word: 'エレベーター', romaji: 'erebeetaa', meaning: 'elevator' },
@@ -458,6 +506,7 @@ const katakanaData = [
     { 
         char: 'オ', 
         romaji: 'o',
+        videoId: '',
         examples: [
             { word: 'オレンジ', romaji: 'orenji', meaning: 'orange' },
             { word: 'オフィス', romaji: 'ofisu', meaning: 'office' },
@@ -467,6 +516,7 @@ const katakanaData = [
     { 
         char: 'カ', 
         romaji: 'ka',
+        videoId: '',
         examples: [
             { word: 'カメラ', romaji: 'kamera', meaning: 'camera' },
             { word: 'カレンダー', romaji: 'karendaa', meaning: 'calendar' },
@@ -476,6 +526,7 @@ const katakanaData = [
     { 
         char: 'キ', 
         romaji: 'ki',
+        videoId: '',
         examples: [
             { word: 'キーボード', romaji: 'kiiboodo', meaning: 'keyboard' },
             { word: 'キッチン', romaji: 'kicchin', meaning: 'kitchen' },
@@ -485,6 +536,7 @@ const katakanaData = [
     { 
         char: 'ク', 
         romaji: 'ku',
+        videoId: '',
         examples: [
             { word: 'クラス', romaji: 'kurasu', meaning: 'class' },
             { word: 'クリーム', romaji: 'kuriimu', meaning: 'cream' },
@@ -494,6 +546,7 @@ const katakanaData = [
     { 
         char: 'ケ', 
         romaji: 'ke',
+        videoId: '',
         examples: [
             { word: 'ケーキ', romaji: 'keeki', meaning: 'cake' },
             { word: 'ケース', romaji: 'keesu', meaning: 'case' },
@@ -503,6 +556,7 @@ const katakanaData = [
     { 
         char: 'コ', 
         romaji: 'ko',
+        videoId: '',
         examples: [
             { word: 'コーヒー', romaji: 'koohii', meaning: 'coffee' },
             { word: 'コピー', romaji: 'kopii', meaning: 'copy' },
@@ -512,6 +566,7 @@ const katakanaData = [
     { 
         char: 'サ', 
         romaji: 'sa',
+        videoId: '',
         examples: [
             { word: 'サラダ', romaji: 'sarada', meaning: 'salad' },
             { word: 'サッカー', romaji: 'sakkaa', meaning: 'soccer' },
@@ -521,6 +576,7 @@ const katakanaData = [
     { 
         char: 'シ', 
         romaji: 'shi',
+        videoId: '',
         examples: [
             { word: 'シーズン', romaji: 'shiizun', meaning: 'season' },
             { word: 'シェフ', romaji: 'shefu', meaning: 'chef' },
@@ -530,6 +586,7 @@ const katakanaData = [
     { 
         char: 'ス', 
         romaji: 'su',
+        videoId: '',
         examples: [
             { word: 'スーパー', romaji: 'suupaa', meaning: 'supermarket' },
             { word: 'スカート', romaji: 'sukaato', meaning: 'skirt' },
@@ -539,6 +596,7 @@ const katakanaData = [
     { 
         char: 'セ', 
         romaji: 'se',
+        videoId: '',
         examples: [
             { word: 'セーター', romaji: 'seetaa', meaning: 'sweater' },
             { word: 'セミナー', romaji: 'seminaa', meaning: 'seminar' },
@@ -548,6 +606,7 @@ const katakanaData = [
     { 
         char: 'ソ', 
         romaji: 'so',
+        videoId: '',
         examples: [
             { word: 'ソフト', romaji: 'sofuto', meaning: 'software' },
             { word: 'ソファー', romaji: 'sofaa', meaning: 'sofa' },
@@ -557,6 +616,7 @@ const katakanaData = [
     { 
         char: 'タ', 
         romaji: 'ta',
+        videoId: '',
         examples: [
             { word: 'タクシー', romaji: 'takushii', meaning: 'taxi' },
             { word: 'タオル', romaji: 'taoru', meaning: 'towel' },
@@ -566,6 +626,7 @@ const katakanaData = [
     { 
         char: 'チ', 
         romaji: 'chi',
+        videoId: '',
         examples: [
             { word: 'チケット', romaji: 'chiketto', meaning: 'ticket' },
             { word: 'チーズ', romaji: 'chiizu', meaning: 'cheese' },
@@ -575,6 +636,7 @@ const katakanaData = [
     { 
         char: 'ツ', 
         romaji: 'tsu',
+        videoId: '',
         examples: [
             { word: 'ツアー', romaji: 'tsuaa', meaning: 'tour' },
             { word: 'ツリー', romaji: 'tsurii', meaning: 'tree' },
@@ -584,6 +646,7 @@ const katakanaData = [
     { 
         char: 'テ', 
         romaji: 'te',
+        videoId: '',
         examples: [
             { word: 'テレビ', romaji: 'terebi', meaning: 'television' },
             { word: 'テーブル', romaji: 'teeburu', meaning: 'table' },
@@ -593,6 +656,7 @@ const katakanaData = [
     { 
         char: 'ト', 
         romaji: 'to',
+        videoId: '',
         examples: [
             { word: 'トイレ', romaji: 'toire', meaning: 'toilet' },
             { word: 'トマト', romaji: 'tomato', meaning: 'tomato' },
@@ -602,6 +666,7 @@ const katakanaData = [
     { 
         char: 'ナ', 
         romaji: 'na',
+        videoId: '',
         examples: [
             { word: 'ナイフ', romaji: 'naifu', meaning: 'knife' },
             { word: 'ナンバー', romaji: 'nanbaa', meaning: 'number' },
@@ -611,6 +676,7 @@ const katakanaData = [
     { 
         char: 'ニ', 
         romaji: 'ni',
+        videoId: '',
         examples: [
             { word: 'ニュース', romaji: 'nyuusu', meaning: 'news' },
             { word: 'ニット', romaji: 'nitto', meaning: 'knit' },
@@ -620,6 +686,7 @@ const katakanaData = [
     { 
         char: 'ヌ', 
         romaji: 'nu',
+        videoId: '',
         examples: [
             { word: 'ヌードル', romaji: 'nuudoru', meaning: 'noodle' },
             { word: 'ヌクレア', romaji: 'nukurea', meaning: 'nuclear' },
@@ -629,6 +696,7 @@ const katakanaData = [
     { 
         char: 'ネ', 
         romaji: 'ne',
+        videoId: '',
         examples: [
             { word: 'ネクタイ', romaji: 'nekutai', meaning: 'necktie' },
             { word: 'ネイル', romaji: 'neiru', meaning: 'nail' },
@@ -638,6 +706,7 @@ const katakanaData = [
     { 
         char: 'ノ', 
         romaji: 'no',
+        videoId: '',
         examples: [
             { word: 'ノート', romaji: 'nooto', meaning: 'notebook' },
             { word: 'ノルマ', romaji: 'noruma', meaning: 'quota' },
@@ -647,6 +716,7 @@ const katakanaData = [
     { 
         char: 'ハ', 
         romaji: 'ha',
+        videoId: '',
         examples: [
             { word: 'ハンバーガー', romaji: 'hanbaagaa', meaning: 'hamburger' },
             { word: 'ハンカチ', romaji: 'hankachi', meaning: 'handkerchief' },
@@ -656,6 +726,7 @@ const katakanaData = [
     { 
         char: 'ヒ', 
         romaji: 'hi',
+        videoId: '',
         examples: [
             { word: 'ヒーター', romaji: 'hiitaa', meaning: 'heater' },
             { word: 'ヒント', romaji: 'hinto', meaning: 'hint' },
@@ -665,6 +736,7 @@ const katakanaData = [
     { 
         char: 'フ', 
         romaji: 'fu',
+        videoId: '',
         examples: [
             { word: 'フランス', romaji: 'furansu', meaning: 'France' },
             { word: 'フライパン', romaji: 'furaipan', meaning: 'frying pan' },
@@ -674,6 +746,7 @@ const katakanaData = [
     { 
         char: 'ヘ', 
         romaji: 'he',
+        videoId: '',
         examples: [
             { word: 'ヘリコプター', romaji: 'herikoputaa', meaning: 'helicopter' },
             { word: 'ヘッドホン', romaji: 'heddohon', meaning: 'headphone' },
@@ -683,6 +756,7 @@ const katakanaData = [
     { 
         char: 'ホ', 
         romaji: 'ho',
+        videoId: '',
         examples: [
             { word: 'ホテル', romaji: 'hoteru', meaning: 'hotel' },
             { word: 'ホーム', romaji: 'hoomu', meaning: 'home' },
@@ -692,6 +766,7 @@ const katakanaData = [
     { 
         char: 'マ', 
         romaji: 'ma',
+        videoId: '',
         examples: [
             { word: 'マンション', romaji: 'manshon', meaning: 'apartment' },
             { word: 'マスク', romaji: 'masuku', meaning: 'mask' },
@@ -701,6 +776,7 @@ const katakanaData = [
     { 
         char: 'ミ', 
         romaji: 'mi',
+        videoId: '',
         examples: [
             { word: 'ミルク', romaji: 'miruku', meaning: 'milk' },
             { word: 'ミラー', romaji: 'miraa', meaning: 'mirror' },
@@ -710,6 +786,7 @@ const katakanaData = [
     { 
         char: 'ム', 
         romaji: 'mu',
+        videoId: '',
         examples: [
             { word: 'ムービー', romaji: 'muubii', meaning: 'movie' },
             { word: 'ムード', romaji: 'muudo', meaning: 'mood' },
@@ -719,6 +796,7 @@ const katakanaData = [
     { 
         char: 'メ', 
         romaji: 'me',
+        videoId: '',
         examples: [
             { word: 'メニュー', romaji: 'menyuu', meaning: 'menu' },
             { word: 'メール', romaji: 'meeru', meaning: 'email' },
@@ -728,6 +806,7 @@ const katakanaData = [
     { 
         char: 'モ', 
         romaji: 'mo',
+        videoId: '',
         examples: [
             { word: 'モダン', romaji: 'modan', meaning: 'modern' },
             { word: 'モニター', romaji: 'monitaa', meaning: 'monitor' },
@@ -737,6 +816,7 @@ const katakanaData = [
     { 
         char: 'ヤ', 
         romaji: 'ya',
+        videoId: '',
         examples: [
             { word: 'ヤング', romaji: 'yangu', meaning: 'young' },
             { word: 'ヤード', romaji: 'yaado', meaning: 'yard' },
@@ -746,6 +826,7 @@ const katakanaData = [
     { 
         char: 'ユ', 
         romaji: 'yu',
+        videoId: '',
         examples: [
             { word: 'ユニーク', romaji: 'yuniiku', meaning: 'unique' },
             { word: 'ユーロ', romaji: 'yuuro', meaning: 'euro' },
@@ -755,6 +836,7 @@ const katakanaData = [
     { 
         char: 'ヨ', 
         romaji: 'yo',
+        videoId: '',
         examples: [
             { word: 'ヨーロッパ', romaji: 'yooroppa', meaning: 'Europe' },
             { word: 'ヨット', romaji: 'yotto', meaning: 'yacht' },
@@ -764,6 +846,7 @@ const katakanaData = [
     { 
         char: 'ラ', 
         romaji: 'ra',
+        videoId: '',
         examples: [
             { word: 'ラジオ', romaji: 'rajio', meaning: 'radio' },
             { word: 'ランチ', romaji: 'ranchi', meaning: 'lunch' },
@@ -773,6 +856,7 @@ const katakanaData = [
     { 
         char: 'リ', 
         romaji: 'ri',
+        videoId: '',
         examples: [
             { word: 'リモコン', romaji: 'rimokon', meaning: 'remote control' },
             { word: 'リズム', romaji: 'rizumu', meaning: 'rhythm' },
@@ -782,6 +866,7 @@ const katakanaData = [
     { 
         char: 'ル', 
         romaji: 'ru',
+        videoId: '',
         examples: [
             { word: 'ルール', romaji: 'ruuru', meaning: 'rule' },
             { word: 'ルーム', romaji: 'ruumu', meaning: 'room' },
@@ -791,6 +876,7 @@ const katakanaData = [
     { 
         char: 'レ', 
         romaji: 're',
+        videoId: '',
         examples: [
             { word: 'レストラン', romaji: 'resutoran', meaning: 'restaurant' },
             { word: 'レコード', romaji: 'rekoodo', meaning: 'record' },
@@ -800,6 +886,7 @@ const katakanaData = [
     { 
         char: 'ロ', 
         romaji: 'ro',
+        videoId: '',
         examples: [
             { word: 'ロボット', romaji: 'robotto', meaning: 'robot' },
             { word: 'ロック', romaji: 'rokku', meaning: 'rock' },
@@ -809,6 +896,7 @@ const katakanaData = [
     { 
         char: 'ワ', 
         romaji: 'wa',
+        videoId: '',
         examples: [
             { word: 'ワイン', romaji: 'wain', meaning: 'wine' },
             { word: 'ワイシャツ', romaji: 'waishatsu', meaning: 'white shirt' },
@@ -818,6 +906,7 @@ const katakanaData = [
     { 
         char: 'ヲ', 
         romaji: 'wo',
+        videoId: '',
         examples: [
             { word: 'ヲタク', romaji: 'wotaku', meaning: 'otaku' },
             { word: 'ヲタ芸', romaji: 'wotagei', meaning: 'otaku dance' },
@@ -827,6 +916,7 @@ const katakanaData = [
     { 
         char: 'ン', 
         romaji: 'n',
+        videoId: '',
         examples: [
             { word: 'パン', romaji: 'pan', meaning: 'bread' },
             { word: 'リンゴ', romaji: 'ringo', meaning: 'apple' },
@@ -840,6 +930,7 @@ const kanjiData = [
         char: '日',
         romaji: 'nichi/hi',
         meaning: 'day/sun',
+        videoId: '',
         examples: [
             { word: '日本', romaji: 'nihon', meaning: 'Japan' }
         ]
@@ -848,6 +939,7 @@ const kanjiData = [
         char: '月',
         romaji: 'getsu/tsuki',
         meaning: 'month/moon',
+        videoId: '',
         examples: [
             { word: '月曜日', romaji: 'getsuyoubi', meaning: 'Monday' }
         ]
@@ -856,6 +948,7 @@ const kanjiData = [
         char: '水',
         romaji: 'sui/mizu',
         meaning: 'water',
+        videoId: '',
         examples: [
             { word: '水曜日', romaji: 'suiyoubi', meaning: 'Wednesday' }
         ]
@@ -864,6 +957,7 @@ const kanjiData = [
         char: '火',
         romaji: 'ka/hi',
         meaning: 'fire',
+        videoId: '',
         examples: [
             { word: '火曜日', romaji: 'kayoubi', meaning: 'Tuesday' }
         ]
@@ -872,6 +966,7 @@ const kanjiData = [
         char: '木',
         romaji: 'moku/ki',
         meaning: 'tree/wood',
+        videoId: '',
         examples: [
             { word: '木曜日', romaji: 'mokuyoubi', meaning: 'Thursday' }
         ]
@@ -880,6 +975,7 @@ const kanjiData = [
         char: '金',
         romaji: 'kin/kane',
         meaning: 'gold/money',
+        videoId: '',
         examples: [
             { word: '金曜日', romaji: 'kinyoubi', meaning: 'Friday' }
         ]
@@ -888,6 +984,7 @@ const kanjiData = [
         char: '土',
         romaji: 'do/tsuchi',
         meaning: 'earth/soil',
+        videoId: '',
         examples: [
             { word: '土曜日', romaji: 'doyoubi', meaning: 'Saturday' }
         ]
@@ -896,6 +993,7 @@ const kanjiData = [
         char: '人',
         romaji: 'jin/hito',
         meaning: 'person',
+        videoId: '',
         examples: [
             { word: '日本人', romaji: 'nihonjin', meaning: 'Japanese person' }
         ]
@@ -904,6 +1002,7 @@ const kanjiData = [
         char: '大',
         romaji: 'dai/oo',
         meaning: 'big/large',
+        videoId: '',
         examples: [
             { word: '大人', romaji: 'otona', meaning: 'adult' }
         ]
@@ -912,6 +1011,7 @@ const kanjiData = [
         char: '小',
         romaji: 'shou/chiisai',
         meaning: 'small',
+        videoId: '',
         examples: [
             { word: '小学生', romaji: 'shougakusei', meaning: 'elementary school student' }
         ]
@@ -920,6 +1020,7 @@ const kanjiData = [
         char: '中',
         romaji: 'chuu/naka',
         meaning: 'middle/center',
+        videoId: '',
         examples: [
             { word: '中国', romaji: 'chuugoku', meaning: 'China' }
         ]
@@ -928,6 +1029,7 @@ const kanjiData = [
         char: '上',
         romaji: 'jou/ue',
         meaning: 'up/above',
+        videoId: '',
         examples: [
             { word: '上手', romaji: 'jouzu', meaning: 'skillful' }
         ]
@@ -936,6 +1038,7 @@ const kanjiData = [
         char: '下',
         romaji: 'ka/shita',
         meaning: 'down/below',
+        videoId: '',
         examples: [
             { word: '下手', romaji: 'heta', meaning: 'unskilled' }
         ]
@@ -944,6 +1047,7 @@ const kanjiData = [
         char: '年',
         romaji: 'nen/toshi',
         meaning: 'year',
+        videoId: '',
         examples: [
             { word: '今年', romaji: 'kotoshi', meaning: 'this year' }
         ]
@@ -952,6 +1056,7 @@ const kanjiData = [
         char: '生',
         romaji: 'sei/iki',
         meaning: 'life/live',
+        videoId: '',
         examples: [
             { word: '学生', romaji: 'gakusei', meaning: 'student' }
         ]
@@ -960,6 +1065,7 @@ const kanjiData = [
         char: '学',
         romaji: 'gaku/manabu',
         meaning: 'study/learn',
+        videoId: '',
         examples: [
             { word: '学校', romaji: 'gakkou', meaning: 'school' }
         ]
@@ -968,6 +1074,7 @@ const kanjiData = [
         char: '先',
         romaji: 'sen/saki',
         meaning: 'previous/ahead',
+        videoId: '',
         examples: [
             { word: '先生', romaji: 'sensei', meaning: 'teacher' }
         ]
@@ -976,6 +1083,7 @@ const kanjiData = [
         char: '見',
         romaji: 'ken/miru',
         meaning: 'see/look',
+        videoId: '',
         examples: [
             { word: '見る', romaji: 'miru', meaning: 'to see' }
         ]
@@ -984,6 +1092,7 @@ const kanjiData = [
         char: '聞',
         romaji: 'bun/kiku',
         meaning: 'hear/listen',
+        videoId: '',
         examples: [
             { word: '聞く', romaji: 'kiku', meaning: 'to listen' }
         ]
@@ -992,6 +1101,7 @@ const kanjiData = [
         char: '話',
         romaji: 'wa/hanashi',
         meaning: 'speak/talk',
+        videoId: '',
         examples: [
             { word: '話す', romaji: 'hanasu', meaning: 'to speak' }
         ]
@@ -1000,6 +1110,7 @@ const kanjiData = [
         char: '読',
         romaji: 'doku/yomu',
         meaning: 'read',
+        videoId: '',
         examples: [
             { word: '読む', romaji: 'yomu', meaning: 'to read' }
         ]
@@ -1008,6 +1119,7 @@ const kanjiData = [
         char: '書',
         romaji: 'sho/kaku',
         meaning: 'write',
+        videoId: '',
         examples: [
             { word: '書く', romaji: 'kaku', meaning: 'to write' }
         ]
@@ -1016,6 +1128,7 @@ const kanjiData = [
         char: '食',
         romaji: 'shoku/tabe',
         meaning: 'eat/food',
+        videoId: '',
         examples: [
             { word: '食べる', romaji: 'taberu', meaning: 'to eat' }
         ]
@@ -1024,6 +1137,7 @@ const kanjiData = [
         char: '飲',
         romaji: 'in/nomu',
         meaning: 'drink',
+        videoId: '',
         examples: [
             { word: '飲む', romaji: 'nomu', meaning: 'to drink' }
         ]
@@ -1032,6 +1146,7 @@ const kanjiData = [
         char: '行',
         romaji: 'kou/iku',
         meaning: 'go',
+        videoId: '',
         examples: [
             { word: '行く', romaji: 'iku', meaning: 'to go' }
         ]
@@ -1040,6 +1155,7 @@ const kanjiData = [
         char: '来',
         romaji: 'rai/kuru',
         meaning: 'come',
+        videoId: '',
         examples: [
             { word: '来る', romaji: 'kuru', meaning: 'to come' }
         ]
@@ -1048,6 +1164,7 @@ const kanjiData = [
         char: '帰',
         romaji: 'ki/kaeru',
         meaning: 'return',
+        videoId: '',
         examples: [
             { word: '帰る', romaji: 'kaeru', meaning: 'to return' }
         ]
@@ -1056,6 +1173,7 @@ const kanjiData = [
         char: '買',
         romaji: 'bai/kau',
         meaning: 'buy',
+        videoId: '',
         examples: [
             { word: '買う', romaji: 'kau', meaning: 'to buy' }
         ]
@@ -1064,6 +1182,7 @@ const kanjiData = [
         char: '売',
         romaji: 'bai/uru',
         meaning: 'sell',
+        videoId: '',
         examples: [
             { word: '売る', romaji: 'uru', meaning: 'to sell' }
         ]
@@ -1072,6 +1191,7 @@ const kanjiData = [
         char: '電',
         romaji: 'den',
         meaning: 'electricity',
+        videoId: '',
         examples: [
             { word: '電気', romaji: 'denki', meaning: 'electricity' }
         ]
@@ -1080,6 +1200,7 @@ const kanjiData = [
         char: '車',
         romaji: 'sha/kuruma',
         meaning: 'car',
+        videoId: '',
         examples: [
             { word: '電車', romaji: 'densha', meaning: 'train' }
         ]
@@ -1088,6 +1209,7 @@ const kanjiData = [
         char: '駅',
         romaji: 'eki',
         meaning: 'station',
+        videoId: '',
         examples: [
             { word: '駅前', romaji: 'ekimae', meaning: 'in front of station' }
         ]
@@ -1096,6 +1218,7 @@ const kanjiData = [
         char: '店',
         romaji: 'ten/mise',
         meaning: 'shop/store',
+        videoId: '',
         examples: [
             { word: '本屋', romaji: 'honya', meaning: 'bookstore' }
         ]
@@ -1104,6 +1227,7 @@ const kanjiData = [
         char: '社',
         romaji: 'sha/yashiro',
         meaning: 'company/shrine',
+        videoId: '',
         examples: [
             { word: '会社', romaji: 'kaisha', meaning: 'company' }
         ]
@@ -1112,6 +1236,7 @@ const kanjiData = [
         char: '会',
         romaji: 'kai/au',
         meaning: 'meet/meeting',
+        videoId: '',
         examples: [
             { word: '会社', romaji: 'kaisha', meaning: 'company' }
         ]
@@ -1120,6 +1245,7 @@ const kanjiData = [
         char: '工',
         romaji: 'kou',
         meaning: 'work/industry',
+        videoId: '',
         examples: [
             { word: '工場', romaji: 'koujou', meaning: 'factory' }
         ]
@@ -1128,6 +1254,7 @@ const kanjiData = [
         char: '場',
         romaji: 'jou/ba',
         meaning: 'place',
+        videoId: '',
         examples: [
             { word: '工場', romaji: 'koujou', meaning: 'factory' }
         ]
@@ -1136,6 +1263,7 @@ const kanjiData = [
         char: '校',
         romaji: 'kou',
         meaning: 'school',
+        videoId: '',
         examples: [
             { word: '学校', romaji: 'gakkou', meaning: 'school' }
         ]
@@ -1144,6 +1272,7 @@ const kanjiData = [
         char: '園',
         romaji: 'en/sono',
         meaning: 'garden',
+        videoId: '',
         examples: [
             { word: '幼稚園', romaji: 'youchien', meaning: 'kindergarten' }
         ]
@@ -1152,6 +1281,7 @@ const kanjiData = [
         char: '病',
         romaji: 'byou/yamai',
         meaning: 'illness',
+        videoId: '',
         examples: [
             { word: '病院', romaji: 'byouin', meaning: 'hospital' }
         ]
@@ -1160,6 +1290,7 @@ const kanjiData = [
         char: '院',
         romaji: 'in',
         meaning: 'institution',
+        videoId: '',
         examples: [
             { word: '病院', romaji: 'byouin', meaning: 'hospital' }
         ]
@@ -1168,6 +1299,7 @@ const kanjiData = [
         char: '館',
         romaji: 'kan/tate',
         meaning: 'building',
+        videoId: '',
         examples: [
             { word: '図書館', romaji: 'toshokan', meaning: 'library' }
         ]
@@ -1176,6 +1308,7 @@ const kanjiData = [
         char: '図',
         romaji: 'zu/hakaru',
         meaning: 'map/diagram',
+        videoId: '',
         examples: [
             { word: '図書館', romaji: 'toshokan', meaning: 'library' }
         ]
@@ -1184,6 +1317,7 @@ const kanjiData = [
         char: '書',
         romaji: 'sho/kaku',
         meaning: 'write',
+        videoId: '',
         examples: [
             { word: '図書館', romaji: 'toshokan', meaning: 'library' }
         ]
